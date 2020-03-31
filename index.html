@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="application-name" content="Jonkenpo">
+    <meta name="description" content="jokenpo">
+    <title>Jonkenpo</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+<div class="container">
+  
+    <h1>JO - KEN - PO</h1>
+  
+    <div class="links">
+       <h3>Escolha:</h3>
+      <button id="pedra">Pedra!</button>
+      <button id="papel">Papel!</button>
+      <button id="tesoura">Tesoura!</button>    
+    </div>
+    
+    <div class="computer">
+        <form id="pchoose">
+        <p>
+          <label for="pc">Robox:</label>
+          <input type="text" name="pc" readonly>
+        </p>
+      </form>
+    </div>
+   
+  <div class="count">
+      <form id="contar">
+       <label for="vic">Ganho:</label>
+       <input type="text" name="vic" readonly>
+        <label for="lose">Defesa:</label>
+       <input type="text" name="lose" readonly>
+        <label for="empate">Perda:</label>
+        <input type="text" name="empate" readonly>
+        
+        <input type="reset" value="Reset" id="reset">
+       </form>
+  </div>
+    
+  <div id="choose">
+      <div class="escolha">
+        <div id="win">
+          <h2 class="h2">Você ganhou!</h2>
+          <span>Parabéns!</span>
+        </div>  
+    
+        <div id="lose">
+          <h2 class="h2">Você perdeu!<h2>
+          <span>:(</span>
+        </div>
+        <div id="draw">
+          <h2 class="h2">Erros!</h2>
+          <span> Tente da próxima vez...</span>
+      </div> 
+    </div>
+   </div>
+    
+        
+  <div id="autor"> made by <p target="_blank">Renata Maçãs</p></div>
+  </div>
+  <script src="main.js"></script>
+  </body>
+  </html>
